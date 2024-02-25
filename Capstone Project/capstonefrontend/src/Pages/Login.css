@@ -1,0 +1,37 @@
+.loginform{
+  text-align: center;
+  background-color: white;
+  padding: 10%;
+}
+
+.logininput{
+  border: solid black 3px;
+  font-size: 20px;
+  text-align: center;
+  height: 30px;
+  width: 30%;
+}
+
+.loginbtn{
+  color: black;
+  background-color: white;
+  border: solid black 3px;
+  border-radius: 5px;
+  font-size: 20px;
+  height: 30px;
+  width: 30%;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.loginbtn:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.loginbtn:active {
+  color: white;
+  background-color: grey;
+  border: solid grey 3px;
+}

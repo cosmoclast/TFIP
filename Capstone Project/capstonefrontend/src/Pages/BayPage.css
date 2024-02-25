@@ -1,0 +1,12 @@
+.bayequipmentinfo{
+  display: flex;
+  flex-direction: row;
+  padding-top: 440px;
+  flex-wrap: wrap;
+}
+
+.nobayequipmentinfo{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

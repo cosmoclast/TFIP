@@ -1,0 +1,13 @@
+.usingequipmentinfo{
+  display: flex;
+  flex-direction: row;
+  padding-top: 440px;
+  flex-wrap: wrap;
+}
+
+.nousingequipmentinfo{
+  display: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+

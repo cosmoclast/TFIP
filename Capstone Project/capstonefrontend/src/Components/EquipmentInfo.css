@@ -1,0 +1,83 @@
+.equipmentinfo{
+  width: 44%;
+  margin: 0% 0% 0% 1%;
+  padding: 2% 2% 2% 2%;
+  border: solid 2px black;
+  word-wrap: break-word;
+}
+
+.chkbox:checked{
+  accent-color: black;
+}
+
+.submitbtn{
+  align-self: center;
+  color: black;
+  background-color: white;
+  border: solid black 3px;
+  border-radius: 5px;
+  height: 20px;
+  width: 120px;
+  transition: 0.3s;
+}
+
+.submitbtn:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.submitbtn:active {
+  color: white;
+  background-color: grey;
+  border: solid grey 3px;
+}
+
+.selectbay{
+  color: black;
+  background-color: white;
+  border: solid black 3px;
+  border-radius: 5px;
+  height: 20px;
+  width: 120px;
+}
+
+.textdefect{
+  color: black;
+  background-color: white;
+  border: solid black 3px;
+  border-radius: 5px;
+  height: 18px;
+}
+
+.minmaxdefectbtn{
+  color: black;
+  background-color: white;
+  border: solid black 2px;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  transition: 0.3s;
+}
+
+.minmaxdefectbtn:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.minmaxdefectbtn:active {
+  color: white;
+  background-color: grey;
+  border: solid grey 3px;
+}
+
+@media screen and (max-width: 780px) {
+  .equipmentinfo{
+    width: 94%;
+    margin: 0% 0% 0% 1%;
+    padding: 2% 2% 2% 2%;
+    border: solid 2px black;
+    word-wrap: break-word;
+  }
+}

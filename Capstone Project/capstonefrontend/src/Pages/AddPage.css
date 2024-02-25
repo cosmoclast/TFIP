@@ -1,0 +1,54 @@
+.addformcontainer{
+  padding-top: 440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.addequipmentbtn{
+  align-self: center;
+  color: black;
+  background-color: white;
+  border: solid black 3px;
+  border-radius: 5px;
+  height: 30px;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.addequipmentbtn:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.addequipmentbtn:active {
+  color: white;
+  background-color: grey;
+  border: solid grey 3px;
+}
+
+.selectcategory, .selectlocation{
+  color: black;
+  background-color: white;
+  border: solid black 3px;
+  border-radius: 5px;
+  height: 30px;
+  width: 50%;
+}
+
+.textequipmentname, .textaircraft{
+  color: black;
+  background-color: white;
+  border: solid black 3px;
+  border-radius: 5px;
+  height: 25px;
+}
+
+.dimequipment{
+  color: black;
+  background-color: white;
+  border: solid black 3px;
+  border-radius: 5px;
+  height: 25px;
+  width: 50%;
+}
