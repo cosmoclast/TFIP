@@ -1,0 +1,227 @@
+/******************************************************************************
+### Practicum 03, Data Structure and Algorithm for Java ###
+file  : TestPriorityQueue.java
+author: Alvin Yeo
+edited by: <Yeo Beng Koon Bernard>
+date  : 24/12/2021
+
+***Refer CET1022_P03.pdf for instructions***
+******************************************************************************/
+
+/**
+ * Driver class
+ */
+public class TestPriorityQueue {
+	
+    /**
+     * Main method
+     * @param args - Command line arguments
+     */
+	public static void main(String[] args) {
+		
+		MinHeapPriorityQueue<Integer, String> hp = new MinHeapPriorityQueue<>();
+
+		hp.insert(2, "hello");
+		hp.insert(7, "hello");
+		hp.insert(26, "hello");
+		hp.insert(25, "hello");
+		hp.insert(19, "hello");
+		hp.insert(17, "hello");
+		hp.insert(1, "hello");
+		hp.insert(90, "hello");
+		hp.insert(3, "hello");
+		hp.insert(36, "hello");
+
+		// expected: 1 3 2 7 19 26 17 90 25 36
+		hp.displayQueue();
+
+		hp.removeMin();
+		// expected: 2 3 17 7 19 26 36 90 25
+		hp.displayQueue();
+
+		hp.removeMin();
+		// expected: 3 7 17 25 19 26 36 90
+		hp.displayQueue();
+
+		hp.removeMin();
+		// expected: 7 19 17 25 90 26 36
+		hp.displayQueue();
+
+		//TEST INTEGER KEY STRING VALUE
+		System.out.println("TEST INTEGER KEY STRING VALUE");
+		MinHeapPriorityQueue<Integer, String> hp1 = new MinHeapPriorityQueue<>();
+
+		//TEST REMOVE EMPTY
+		System.out.println("TEST REMOVE EMPTY");
+		hp1.removeMin();
+		hp1.displayQueue();
+
+		//TEST PEEKMIN
+		System.out.println("TEST PEEKMIN");
+		System.out.println(hp1.peekMin());
+		hp1.displayQueue();
+
+		//TEST GETSIZE
+		System.out.println("TEST GETSIZE");
+		System.out.println(hp1.getSize());
+		hp1.displayQueue();
+
+		//TEST INSERT INTEGER KEYS
+		System.out.println("TEST INSERT INTEGER KEYS");
+		hp1.insert(0, "hello0");
+		hp1.insert(1, "hello1");
+		hp1.insert(2, "hello2");
+		hp1.insert(3, "hello3");
+		hp1.insert(4, "hello4");
+		hp1.insert(5, "hello5");
+
+		hp1.displayQueue();
+
+		//TEST PEEKMIN
+		System.out.println("TEST PEEKMIN");
+		System.out.print(hp1.peekMin().getKey());
+		System.out.println(" " + hp1.peekMin().getValue());
+		hp1.displayQueue();
+
+		//TEST GETSIZE
+		System.out.println("TEST GETSIZE");
+		System.out.println(hp1.getSize());
+		hp1.displayQueue();
+
+		//TEST REMOVEMIN
+		System.out.println("TEST REMOVEMIN");
+		hp1.removeMin();
+		hp1.displayQueue();
+		hp1.removeMin();
+		hp1.displayQueue();
+		hp1.removeMin();
+		hp1.displayQueue();
+
+		//TEST PEEKMIN
+		System.out.println("TEST PEEKMIN");
+		System.out.print(hp1.peekMin().getKey());
+		System.out.println(" " + hp1.peekMin().getValue());
+		hp1.displayQueue();
+
+		//TEST GETSIZE
+		System.out.println("TEST GETSIZE");
+		System.out.println(hp1.getSize());
+		hp1.displayQueue();
+
+		//TEST REMOVEMIN
+		System.out.println("TEST REMOVEMIN");
+		hp1.removeMin();
+		hp1.displayQueue();
+		hp1.removeMin();
+		hp1.displayQueue();
+		hp1.removeMin();
+		hp1.displayQueue();
+
+		//TEST PEEKMIN
+		System.out.println("TEST PEEKMIN");
+		System.out.println(hp1.peekMin());
+		hp1.displayQueue();
+
+		//TEST GETSIZE
+		System.out.println("TEST GETSIZE");
+		System.out.println(hp1.getSize());
+		hp1.displayQueue();
+
+		/*If displayQueue2 is red, copy the following code to your MinHeapPriorityQueue and delete it after testing,
+		the displayQueue2 displays the key and value of each node.
+
+		// RMB TO DELETE AFTER TESTING!
+		public void displayQueue2() {
+			*//* your code here *//*
+			for(int i = 0; i < getSize(); i++)
+				System.out.println(heap.get(i).getKey() + " " + heap.get(i).getValue());
+		}
+		*/
+
+		//TEST INSERT DUPLICATE INTEGER KEYS
+		System.out.println("TEST INSERT DUPLICATE INTEGER KEYS");
+		hp1.insert(5, "hello50");
+		hp1.insert(5, "hello51");
+		hp1.insert(5, "hello52");
+		hp1.insert(4, "hello40");
+		hp1.insert(4, "hello41");
+		hp1.displayQueue2();
+		System.out.println("I AM HERE 1");
+		hp1.insert(4, "hello42");
+		hp1.insert(3, "hello30");
+		hp1.insert(3, "hello31");
+		hp1.insert(3, "hello32");
+		hp1.displayQueue2();
+		System.out.println("I AM HERE 2");
+		hp1.insert(2, "hello20");
+		hp1.insert(2, "hello21");
+		hp1.insert(2, "hello22");
+		hp1.insert(1, "hello10");
+		hp1.insert(1, "hello11");
+		hp1.displayQueue2();
+		System.out.println("I AM HERE 3");
+		hp1.insert(1, "hello12");
+		hp1.insert(0, "hello00");
+		hp1.insert(0, "hello01");
+		hp1.insert(0, "hello02");
+		hp1.displayQueue2();
+		System.out.println("I AM HERE 4");
+
+		//TEST PEEKMIN
+		System.out.println("TEST PEEKMIN");
+		System.out.println(hp1.peekMin());
+		hp1.displayQueue();
+
+		//TEST GETSIZE
+		System.out.println("TEST GETSIZE");
+		System.out.println(hp1.getSize());
+		hp1.displayQueue();
+
+		System.out.println("I AM HERE 5");
+		hp1.removeMin();
+		hp1.removeMin();
+		hp1.removeMin();
+		hp1.removeMin();
+		hp1.removeMin();
+		hp1.displayQueue2();
+		System.out.println("I AM HERE 6");
+		hp1.removeMin();
+		hp1.removeMin();
+		hp1.removeMin();
+		hp1.removeMin();
+		hp1.displayQueue2();
+		System.out.println("I AM HERE 7");
+		hp1.removeMin();
+		hp1.removeMin();
+		hp1.removeMin();
+		hp1.removeMin();
+		hp1.removeMin();
+		hp1.displayQueue2();
+		System.out.println("I AM HERE 8");
+		hp1.removeMin();
+		hp1.displayQueue2();
+		System.out.println();
+		hp1.removeMin();
+		hp1.displayQueue2();
+		System.out.println();
+		hp1.removeMin();
+		hp1.displayQueue2();
+		System.out.println();
+		hp1.removeMin();
+		hp1.displayQueue2();
+		System.out.println();
+		hp1.removeMin();
+		hp1.displayQueue2();
+		System.out.println("I AM HERE 9");
+
+		//TEST PEEKMIN
+		System.out.println("TEST PEEKMIN");
+		System.out.println(hp1.peekMin());
+		hp1.displayQueue();
+
+		//TEST GETSIZE
+		System.out.println("TEST GETSIZE");
+		System.out.println(hp1.getSize());
+		hp1.displayQueue();
+	}
+}
