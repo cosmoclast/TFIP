@@ -1,0 +1,104 @@
+body {
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
+a {
+  color: #4f84ce;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+
+/* active is the link when it is being clicked */
+a:active {
+  color: white;
+}
+
+/* visited is for links that have already been clicked */
+a:visited {
+  color: #1c4c90;
+}
+
+a:hover {
+  color: #82ade7;
+}
+
+/* Table Style */
+th,
+td {
+  border: solid 1px black;
+  padding: 3px 6px;
+}
+
+/* Collapse or 'merge' the borders into each other*/
+table {
+  border-collapse: collapse;
+}
+
+/* Color every other row (tr) light grey */
+tr:nth-child(even) {
+  background-color: #eaeaea;
+}
+
+/* Color the text of currentlytaking rows */
+tr.highlight {
+  color: red;
+}
+
+/* Align and style the some cells */
+td.subheader {
+  background-color: yellow;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* .section class selector: set the font-size of all tags with class="section" */
+.section {
+  font-size: 16px;
+}
+
+.section h2 {
+  background-color: #b6d2ec;
+  font-family: Georgia;
+  color: #2a75ba;
+  padding: 5px;
+}
+
+/* span with .serious class: set font to Impact */
+span.serious {
+  font-family: "Impact";
+}
+
+/* span with .silly class: set font to Comic Sans */
+span.silly {
+  font-family: "Comic Sans MS";
+}
+
+/* Put the image on the right */
+#photo {
+  float: right;
+}
+
+#left {
+  position: relative;
+  float: left;
+  width: 70%;
+}
+
+#right {
+  position: relative;
+  float: right;
+  width: 30%;
+
+}
+
+img {
+  margin-right: 0px;
+  margin-top: 0px;
+  width: 80%;
+}
+
+form input {
+  margin-bottom: 0.5em;
+}

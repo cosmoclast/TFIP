@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+    color: #000000;
+    padding: 20px;
+    text-shadow: 1px 0 #000000;
+}
+
+
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    min-width: 100px;
+}
+
+nav {
+    background: #ffffff;;
+}
+div p {
+    max-width: 60%;
+}
+
+main h2 {
+    text-align: center;
+}
+
+.it-solution {
+    height: 600px;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-list {
+}
+
+.logo {
+    text-align: center;
+}
+
+.learn-more {
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, .7);
+    font-weight: bold;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, .7);
+}
+
+.subscribe-now {
+}
+
+nav {
+    padding: 20px;
+}
+
+#menu-icon {
+    display: none;
+    width: 40px;
+    height: 40px;
+    background: #4C8FEC url(images/menu-icon.png) center;
+
+}
+
+
+
+

@@ -1,0 +1,225 @@
+* { 
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+    color: #000000;
+    padding: 20px;
+    text-shadow: 1px 0 #000000;
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    min-width: 100px;
+}
+
+nav {
+    background: #ffffff;;
+}
+
+nav {
+    padding: 20px;
+}
+
+div p {
+    max-width: 60%;
+}
+
+main h2 {
+    text-align: center;
+}
+
+main > h2{
+    display: none;
+}
+
+.logo {
+    text-align: center;
+    background-color: rgb(255,196,135);
+}
+
+#menu-icon {
+    display: none;
+    width: 40px;
+    height: 40px;
+    background: #4C8FEC url(images/menu-icon.png) center;
+}
+
+.top-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.it-solution {
+    height: 600px;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/main.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.learn-more {
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, .7);
+    font-weight: bold;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, .7);
+}
+
+.subscribe-now {
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(158, 206, 76);   
+}
+
+.business{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(255,196,135);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.business div{
+    max-width: 25%;
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+
+.business div p{
+    max-width: 85%;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#contactform{
+    flex: 1;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    margin-left: 1%;
+}
+
+#contactright{
+    flex: 1;
+    margin-left: 5%;
+}
+
+#contactright h2{
+    text-align: left;
+    padding-left: 0;
+}
+
+input, textarea {
+    width: 90%;
+    margin: 3px;
+}
+
+
+@media only screen and (max-width: 880px) {
+    #menu-icon {
+        display: block;
+    } 
+
+    .top-list {
+        display: none;
+    }
+
+    .button{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .learn-more, .subscribe-now{
+        width: 150px;
+        margin: 5px auto 5px auto;
+    }
+
+    .business{
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .business div{
+        flex: 1;
+        max-width: 100%;
+        justify-content: center;
+        margin: 2%;
+    }
+    
+    .business div p{
+        max-width: 100%;
+    }
+    
+    img {
+        max-width: 90%;
+        margin-left: 16%;
+        margin-right: 16%;        
+    }  
+
+    main > h2{
+        display: block;
+        background-color: rgb(255,196,135);
+        padding-bottom: 0;
+    }
+
+    .contact{
+        flex-direction: column;
+    }
+
+    #contactform{
+        margin: 22px 5% 22px 5%;
+        text-align: center;
+    }
+    
+    #contactright{
+        flex: 1;
+        margin: 0;
+    }
+    
+    #contactright h2{
+        text-align: center;
+        padding: 0;
+    }
+
+    #contactright p{
+        max-width: 90%;
+        text-align: center;
+        margin: 10px auto 30px auto;
+    }
+    
+    input, textarea {
+        width: 80%;
+        margin: 3px 0px 3px 0px;
+    }
+}
+
