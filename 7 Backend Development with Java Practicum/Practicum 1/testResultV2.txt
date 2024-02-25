@@ -1,0 +1,30 @@
+Defaulted for testCase.csv------------------------
+Error: Invalid record
+Error: Invalid record
+Error: Invalid record
+Error: Invalid account number
+Error: Invalid account number
+Error: Invalid account number
+Error: Invalid account number
+Error: Invalid account number
+Error: Invalid account number
+Error: Invalid account number
+Error: Invalid account number
+Error: Invalid account number
+Error: Invalid account number
+Error: Invalid balance
+Error: Invalid balance
+Error: Invalid balance
+Error: Invalid balance
+Error: Invalid date
+Error: Invalid date
+Error: Invalid date
+Error: Invalid date
+Error: Invalid date
+Error: Invalid date
+Error: Invalid date
+Error: Invalid record
+Error: Invalid date
+Acct: 807-807, Bal: -703.57, LastPaid: 2023-01-25
+Acct: 401-773, Bal: -745.99, LastPaid: 2021-04-27
+Acct: 720-261, Bal: -876.23, LastPaid: 2019-10-17

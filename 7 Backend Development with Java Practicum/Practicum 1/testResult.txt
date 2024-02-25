@@ -1,0 +1,47 @@
+java.io.FileNotFoundException: class path resource [D:\TFIP\7 Backend Development with Java\Practicum\Practicum1\CET2041_P01_Yeo_Beng_Koon_Bernard\src\main\resources\asdf.csv] cannot be opened because it does not exist
+Defaulted for carLoans.csv------------------------
+Acct: 542-912, Bal: -78.92, LastPaid: 2002-09-24
+Acct: 162-972, Bal: -924.64, LastPaid: 2000-11-24
+Acct: 526-600, Bal: -716.66, LastPaid: 2000-02-26
+Acct: 312-540, Bal: -780.86, LastPaid: 2008-04-29
+Acct: 512-251, Bal: -256.67, LastPaid: 2009-01-01
+Acct: 871-635, Bal: -933.12, LastPaid: 2000-10-02
+Acct: 089-029, Bal: -821.25, LastPaid: 2001-07-21
+
+Defaulted for homeLoans.csv------------------------
+Acct: 322-338, Bal: -39.16, LastPaid: 2020-11-25
+Acct: 807-807, Bal: -703.57, LastPaid: 2019-01-25
+Acct: 922-574, Bal: -408.03, LastPaid: 2021-11-07
+Acct: 401-773, Bal: -745.99, LastPaid: 2021-04-27
+Acct: 720-261, Bal: -876.23, LastPaid: 2019-10-17
+
+Defaulted for testCase.csv------------------------
+Error: Invalid record
+Error: Invalid record
+Error: Invalid record
+Error: Invalid account number
+Error: Invalid account number
+Error: Invalid account number
+Error: Invalid account number
+Error: Invalid account number
+Error: Invalid account number
+Error: Invalid account number
+Error: Invalid account number
+Error: Invalid account number
+Error: Invalid account number
+Error: Invalid balance
+Error: Invalid balance
+Error: Invalid balance
+Error: Invalid balance
+Error: Invalid date
+Error: Invalid date
+Error: Invalid date
+Error: Invalid date
+Error: Invalid date
+Error: Invalid date
+Error: Invalid date
+Error: Invalid record
+Error: Invalid date
+Acct: 807-807, Bal: -703.57, LastPaid: 2023-01-25
+Acct: 401-773, Bal: -745.99, LastPaid: 2021-04-27
+Acct: 720-261, Bal: -876.23, LastPaid: 2019-10-17
